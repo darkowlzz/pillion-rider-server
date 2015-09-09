@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
-const RIDE_COLLECTION = 'ride-alpha-1';
-const STATS_COLLECTION = 'stats-alpha-1';
+const RIDE_COLLECTION = 'ride-pillion-1';
+const STATS_COLLECTION = 'stats-pillion-1';
 
 let uristring = process.env.MONGODB_URI || 'mongodb://localhost/pillion';
 

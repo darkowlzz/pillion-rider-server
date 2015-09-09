@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const STATS_COLLECTION = 'stats-alpha-1';
+const STATS_COLLECTION = 'stats-pillion-1';
 
 let uristring = process.env.MONGODB_URI || 'mongodb://localhost/pillion';
 console.log('uri', uristring);
